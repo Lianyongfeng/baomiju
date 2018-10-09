@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>发表咨询</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="../js/swiper-4.3.2.min.js"></script>
+	</head>
+
+	<body data="interaction">
+		<div class="bg-change">
+			<div class="bg-box">
+				<span class="tog">收起 <i class="iconfont icon-shangxiajiantou1"></i></span>
+				<div class="change-swiper swiper-no-swiping">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../img/body-bg1.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="../img/body-bg2.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="../img/body-bg3.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="../img/body-bg4.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="../img/body-bg5.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="../img/body-bg6.jpg" alt="" /></div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="header">
+				<div class="top">
+					<div class="top-l">
+						<div class="header-wether" id="wether"><iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://www.gz.gov.cn/gzgov/static/gettqypshtml.html"></iframe></div>
+					</div>
+					<div class="top-r">
+						<div class="top-date">
+
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a class="email" href="http://mail.gz.gov.cn/" target="view_window">
+								<i class="iconfont icon-mail">  政务邮箱</i>
+							</a>
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a class="link" href="./links.html" target="view_window">
+								<i class="iconfont icon-fuwulianjie">
+							站点链接
+						</i>
+							</a>
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a class="link" href="./mobile.html" target="view_window">
+								<i class="iconfont icon-shouji1">
+							手机版本
+						</i>
+							</a>
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a href="javascript:void(0);" class="tab">
+								<i class="iconfont icon-jinlingyingcaiwangtubiao05">
+							更换皮肤
+						</i>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="center open-center">
+					<a href="../index.html">
+						<img src="../img/logo.png" alt="" />
+					</a>
+					<div class="search">
+						<form action="" method="post" class="form">
+							<i class="iconfont icon-search"></i>
+							<input type="text" class="text" />
+							<input type="submit" name="Submit" value="搜一下" class="btn" />
+						</form>
+						<ul>
+							热门搜索:
+							<li>环保</li>
+							<li>人才</li>
+							<li>安全</li>
+							<li>保密</li>
+							<li>公益</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav">
+					<ul class="frist-nav">
+						<li>
+							<a href="../index2.html">首页</a>
+						</li>
+						<li>
+							<a href="./open.html">信息公开</a>
+						</li>
+						<li>
+							<a href="http://www.gzbm.gov.cn/investment/investment_jsp_catid_366.html" target="view_window">网上办事</a>
+						</li>
+						<li>
+							<a href="./album.html">组织建设</a>
+						</li>
+						<li>
+							<a href="./skill.html">知识技能</a>
+						</li>
+						<li>
+							<a href="./video.html">宣传教育</a>
+						</li>
+						<li>
+							<a href="./district.html">区县之窗</a>
+						</li>
+						<li>
+							<a href="./interact.html">沟通互动</a>
+						</li>
+						<span class="menu">
+							<a href="javascript:void(0);"> <i class="iconfont icon-caidan"></i></a>
+						</span>
+					</ul>
+					<ul class="second-nav">
+						<li>
+							<a href="./interact.html" class="a-active">资讯建议</a>
+						</li>
+						<li>
+							<a href="">留言信箱</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="body open-body interact-body">
+				<div class="interacted">
+					<div class="title">
+						<a href="./interact.html">浏览区</a>
+						<a href="./interact3.html" class="interacted-active">发表咨询</a>
+					</div>
+					<div class="explain">
+						<table border="none" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>说明</td>
+								<td colspan="4">
+									1．请您填写真实的个人信息，以便我们能够及时给予答复；<br /> 2．留言主题40个中文字符以内，留言内容500个中文字符以内；
+									<br /> 3．带" * "为必须填。
+								</td>
+							</tr>
+						</table>
+					</div>
+					<form action="" class="form" onsubmit="alert('Thank you. The message was successful.')">
+						<div><label>标题</label>：<input class="input" type="text" required pattern="^[\u4E00-\u9FA5A-Za-z0-9]{1,40}$"><span class="must">*</span></div>
+						<div class="right"><label>姓名</label>：<input class="input" type="text" required><span class="must">*</span></div>
+						<div class="radio">
+							<label>类型</label>：
+							<span><input type="radio" name="type" id="c1" required><label for="c1">投诉</label></span>
+							<span><input type="radio" name="type" id="c2" required><label for="c2">建议</label></span>
+							<span><input type="radio" name="type" id="c3" required><label for="c3">咨询</label></span>
+							<span><input type="radio" name="type" id="c4" required><label for="c4">反映</label></span>
+							<span class="must">*</span>
+						</div>
+						<div><label>电话</label>：<input class="input" type="text"></div>
+						<div class="right"><label class="email">Email</label>：<input class="input" type="text"></div>
+						<div class="main"><label>内容</label>：<input type="text"></div>
+						<div class="code"><label>验证码</label>：<input type="text" required><span class="must">*</span><img src="../img/code.jpg"></div>
+						<div class="btn">
+							<button type="submit" class="submit">提交</button>
+							<button type="reset" class="reset">取消</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="spacing-two" style="height: 27px;width: 100%;"></div>
+		<div class="footer-wrapper">
+			<div class="footer">
+				<div class="content">
+					<div class="left">
+						<ul>
+							<li>主办：广州市国家保密局</li>
+							<li>网站标识码：4401000004</li>
+							<li>ICP备案号：粤ICP05104517号</li>
+							<li>
+								<span><a href="http://www.beian.gov.cn/portal/index.do" target="view_window"><img src="../img/police-logo.png" alt="" /></a></span>
+								<span><a href="http://www.beian.gov.cn/portal/index.do" target="view_window">公网安备 44010602000929号</a></span>
+							</li>
+							<li>
+								<a href="http://bszs.conac.cn/sitename?method=show&id=0A015CCC033544C3E053012819AC68B7" target="view_window"><img src="../img/police-logo2.png" alt="" /></a>
+							</li>
+							<li>
+								<a href="http://www.gov.cn/c125533/jbxxk.htm" target="view_window"><img src="../img/police-logo3.png" alt="" /></a>
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li>
+								<a href="./website.html">网站介绍</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="./map.html">网站地图</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="./contact.html">联系我们</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="./statement.html">网站声明</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="javascript:void(0)" onclick="SetHome(this,window.location)">设置为首页</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="javascript:void(0);" onclick="shoucang(document.title,window.location)">添加收藏夹</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/index.js"></script>
+	<script type="text/javascript">
+		//自动换肤
+		var date = new Date();
+		var hours = date.getHours();
+		if(parseInt(hours) >= 6 && parseInt(hours) < 17) {
+
+			$("body").css("background-image", "url(../img/body-bg2.jpg)")
+
+		} else if(parseInt(hours) >= 17 && parseInt(hours) < 19) {
+			$("body").css("background-image", "url(../img/body-bg1.jpg)")
+
+		} else if((parseInt(hours) >= 19 && parseInt(hours) <= 24) || (parseInt(hours) >= 0 && parseInt(hours) < 6)) {
+			$("body").css("background-image", "url(../img/body-bg1.jpg)")
+		}
+		//友情链接
+		$(".footer select").change(function() {
+			window.location.href = $(this).val()
+		})
+	</script>
+
+</html>

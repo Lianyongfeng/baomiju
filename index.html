@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="./js/swiper-4.3.2.min.js"></script>
+	</head>
+	<style>
+		/*body::-webkit-scrollbar {
+			display: none;
+		}*/
+	</style>
+
+	<body>
+		<div class="bg-change">
+			<div class="bg-box">
+				<span class="tog">收起 <i class="iconfont icon-shangxiajiantou1"></i></span>
+				<div class="change-swiper swiper-no-swiping">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="img/body-bg1.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="img/body-bg2.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="img/body-bg3.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="img/body-bg4.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="img/body-bg5.jpg" alt="" /></div>
+						<div class="swiper-slide"><img src="img/body-bg6.jpg" alt="" /></div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="header">
+				<div class="top">
+					<div class="top-l">
+						<div class="header-wether" id="wether"><iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://www.gz.gov.cn/gzgov/static/gettqypshtml.html"></iframe></div>
+					</div>
+					<div class="top-r">
+						<div class="top-date">
+
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a class="email" href="http://mail.gz.gov.cn/" target="view_window">
+								<i class="iconfont icon-mail">  政务邮箱</i>
+							</a>
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a class="link" href="./html/links.html" target="view_window">
+								<i class="iconfont icon-fuwulianjie">
+							站点链接
+						</i>
+							</a>
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a class="link" href="./html/mobile.html" target="view_window">
+								<i class="iconfont icon-shouji1">
+							手机版本
+						</i>
+							</a>
+						</div>
+						<div class="shu">
+							<i class="iconfont icon-vertical_line"></i>
+						</div>
+						<div>
+							<a href="javascript:void(0);" class="tab">
+								<i class="iconfont icon-jinlingyingcaiwangtubiao05">
+							更换皮肤
+						</i>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="center">
+					<a href="./index.html">
+						<img src="./img/logo.png" alt="" />
+					</a>
+					<div class="search">
+						<form action="" method="post" class="form">
+							<i class="iconfont icon-search"></i>
+							<input type="text" class="text" />
+							<input type="submit" name="Submit" value="搜一下" class="btn" />
+						</form>
+						<ul>
+							热门搜索:
+							<li>环保</li>
+							<li>人才</li>
+							<li>安全</li>
+							<li>保密</li>
+							<li>公益</li>
+						</ul>
+					</div>
+				</div>
+				<div class="spacing"></div>
+				<div class="nav">
+					<ul class="frist-nav">
+						<li>
+							<a href="javascript:void(0);" class="home">首页</a>
+						</li>
+						<li>
+							<a href="./html/open.html">信息公开</a>
+						</li>
+						<li>
+							<a href="http://www.gzbm.gov.cn/investment/investment_jsp_catid_366.html" target="view_window">网上办事</a>
+						</li>
+						<li>
+							<a href="./html/open.html">组织建设</a>
+						</li>
+						<li>
+							<a href="./html/skill.html">知识技能</a>
+						</li>
+						<li>
+							<a href="./html/secrecy.html">宣传教育</a>
+						</li>
+						<li>
+							<a href="./html/district.html">区县之窗</a>
+						</li>
+						<li>
+							<a href="./html/interact.html">沟通互动</a>
+						</li>
+						<span class="menu">
+							<a href="javascript:void(0);"> <i class="iconfont icon-caidan"></i></a>
+						</span>
+					</ul>
+				</div>
+			</div>
+			<div class="body">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<a class="swiper-slide" href="./html/news.html" style="background: url('img/swiper-bg1.jpg') no-repeat center center;background-size: cover;">
+							<div class="text">
+								<p>发挥专家“智囊”作用 助力广州保密科技工作</p>
+							</div>
+						</a>
+						<a class="swiper-slide" href="./html/news.html" style="background: url('img/swiper-bg1.jpg') no-repeat center center;background-size: cover;">
+							<div class="text">
+								<p>发挥专家“智囊”作用 助力广州保密科技工作</p>
+							</div>
+						</a>
+						<a class="swiper-slide" href="./html/news.html" style="background: url('img/swiper-bg1.jpg') no-repeat center center;background-size: cover;">
+							<div class="text">
+								<p>发挥专家“智囊”作用 助力广州保密科技工作</p>
+							</div>
+						</a>
+						<a class="swiper-slide" href="./html/news.html" style="background: url('img/swiper-bg1.jpg') no-repeat center center;background-size: cover;">
+							<div class="text">
+								<p>发挥专家“智囊”作用 助力广州保密科技工作</p>
+							</div>
+						</a>
+						<a class="swiper-slide" href="./html/news.html" style="background: url('img/swiper-bg1.jpg') no-repeat center center;background-size: cover;">
+							<div class="text">
+								<p>发挥专家“智囊”作用 助力广州保密科技工作</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="notice">
+					<div class="notice-nav">
+						<ul>
+							<li class="notice-active">通知公告</li>
+							<li>工作动态</li>
+							<li>党建工作</li>
+							<li>交流研讨</li>
+						</ul>
+					</div>
+					<div class="page-wrapper">
+						<div class="page page-active">
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html" class="a-ative">广州市国家保密局2015年行政许可实施和监督广州市国家保密局2015年行政许可实施和监督</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">关于承接行政执法职权的公告</a>
+								<span class="time">2017-08-09</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》主题漫画创作比赛获奖作品公告 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎关注“保密科学技术”微信订阅号 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》主题漫画创作比赛征稿启事 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">关于《保密法》主题漫画创作比赛截稿时间延...</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">“保密知识知多D”上线了 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎大家参加“保密法规知识考试”</a>
+								<span class="time">2016-07-01</span>
+							</div>
+						</div>
+						<div class="page">
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html" class="a-ative">关于承接行政执法职权的公告</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">关于承接行政执法职权的公告</a>
+								<span class="time">2017-08-09</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》关于承接行政执法职权的公告 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎关注“保密科学技术”微信订阅号 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》主题漫画创作比赛征稿启事 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">关于承接行政执法职权的公告</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">“保密知识知多D”上线了 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎大家参加“保密法规知识考试”</a>
+								<span class="time">2016-07-01</span>
+							</div>
+						</div>
+						<div class="page">
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html" class="a-ative">广州市国家保密局2015年行政许可实施和监督广州市国家保密局2015年行政许可实施和监督</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">保密法</a>
+								<span class="time">2017-08-09</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎关注“保密科学技术”微信订阅号 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">关于《保密法》广州市国家保密局2015年行政许可实施和监督广州市国家保密局2015年行政许可实施和监督...</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">“”上线了 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎大家参加“”</a>
+								<span class="time">2016-07-01</span>
+							</div>
+						</div>
+						<div class="page">
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html" class="a-ative">关于承接行政执法职权的公告</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">关于承接行政执法职权的公告</a>
+								<span class="time">2017-08-09</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》关于承接行政执法职权的公告 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎关注“保密科学技术”微信订阅号 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">《保密法》主题漫画创作比赛征稿启事 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">关于承接行政执法职权的公告</a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">“保密知识知多D”上线了 </a>
+								<span class="time">2016-07-01</span>
+							</div>
+							<div class="text">
+								<span class="spot"></span>
+								<a href="./html/open.html">欢迎大家参加“保密法规知识考试”</a>
+								<span class="time">2016-07-01</span>
+							</div>
+						</div>
+					</div>
+					<a href="./html/open.html" class="more">更多<i class="iconfont icon-Double-Arrow"></i></a>
+				</div>
+				<div class="knowledge">
+					<div class="tiltle">
+						<div class="text">知识技能</div>
+						<a href="./html/open.html">更多 <i class="iconfont icon-Double-Arrow"></i> </a>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html" class="a-ative">政府云 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">网优 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">硬盘格式化和数据恢复 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">信息公开和转载信息的保密审 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">信息公开和转载信息的保密审 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+				</div>
+				<div class="secrecy knowledge">
+					<div class="tiltle">
+						<div class="text">广州保密</div>
+						<a href="./html/open.html">更多 <i class="iconfont icon-Double-Arrow"></i> </a>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html" class="a-ative">《广州保密》2016年第十期目录 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">《广州保密》2016年第十期目录 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">《广州保密》2016年第十期目录 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">《广州保密》2016年第十期目录 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+					<div class="text">
+						<span class="spot"></span>
+						<a href="./html/open.html">《广州保密》2016年第十期目录 </a>
+						<span class="time">2016-07-01</span>
+					</div>
+				</div>
+				<div class="interact knowledge">
+					<div class="tiltle">
+						<div class="text">政民互动</div>
+					</div>
+					<div class="one">
+						<a href="./html/interact.html" class="advice">
+							<img src="img/advice.png" />
+							<span>资讯建议</span>
+						</a>
+						<a href=" " class="report">
+							<img src="img/report.png" />
+							<span>泄密举报</span>
+						</a>
+						<a href="" class="guide">
+							<img src="img/guide.png" />
+							<span>办事指南</span>
+						</a>
+					</div>
+					<div class="two">
+						<a href="" class="destroy">
+							<img src="img/destroy.png" />
+							<span>泄密载体销毁</span>
+						</a>
+						<a href="" class="download">
+							<img src="img/download.png" />
+							<span>资料下载</span>
+						</a>
+						<a href="./html/skill.html" class="skill">
+							<img src="img/knowledge.png" />
+							<span>知识技能</span>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="spacing-two" style="height: 33px;width: 100%;"></div>
+		<div class="footer-wrapper">
+			<div class="footer">
+				<div class="content">
+					<div class="left">
+						<ul>
+							<li>主办：广州市国家保密局</li>
+							<li>网站标识码：4401000004</li>
+							<li>ICP备案号粤ICP05104517号</li>
+							<li>
+								<span><a href="http://www.beian.gov.cn/portal/index.do" target="view_window"><img src="img/police-logo.png" alt="" /></a></span>
+								<span><a href="http://www.beian.gov.cn/portal/index.do" target="view_window">公网安备 44010602000929号</a></span>
+							</li>
+							<li>
+								<a href="http://bszs.conac.cn/sitename?method=show&id=0A015CCC033544C3E053012819AC68B7" target="view_window"><img src="img/police-logo2.png" alt="" /></a>
+							</li>
+							<li>
+								<a href="http://www.gov.cn/c125533/jbxxk.htm" target="view_window"><img src="img/police-logo3.png" alt="" /></a>
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li>
+								<a href="./html/website.html">网站介绍</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="./html/map.html">网站地图</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="./html/contact.html">联系我们</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="./html/statement.html">网站声明</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="javascript:void(0)" onclick="SetHome(this,window.location)">设置为首页</a>
+							</li>
+							<li><i class="iconfont icon-vertical_line"></i></li>
+							<li>
+								<a href="javascript:void(0);" onclick="shoucang(document.title,window.location)">添加收藏夹</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="./js/index.js"></script>
+	<script type="text/javascript">
+		//自动换肤
+		var date = new Date();
+		var hours = date.getHours();
+		if(parseInt(hours) >= 6 && parseInt(hours) < 17) {
+
+			$("body").css("background-image", "url(img/body-bg2.jpg)")
+
+		} else if(parseInt(hours) >= 17 && parseInt(hours) < 19) {
+			$("body").css("background-image", "url(img/body-bg1.jpg)")
+
+		} else if((parseInt(hours) >= 19 && parseInt(hours) <= 24) || (parseInt(hours) >= 0 && parseInt(hours) < 6)) {
+			$("body").css("background-image", "url(img/body-bg1.jpg)")
+		}
+		//首页动画
+		$(function() {
+			var bea = false
+			$(".center a").animate({
+				left: '430px',
+				top: '50px'
+			}, 1000);
+			$(".search").animate({
+				right: '312px',
+				bottom: '50px'
+			}, 1000);
+			if(bea == false) {
+				$(".menu").click(function() {
+					if($(".content .body").css("display") == "none") {
+						$("body").attr("data", "home")
+						$(".center a").animate({
+							left: '0',
+							top: '0'
+						}, 1000);
+						$(".search").animate({
+							right: '0',
+							top: '0'
+						}, 1000);
+						$(".content .header .center").animate({
+							height: "86px"
+						}, 1000)
+						$(".spacing").animate({
+							height: "0"
+						}, 1000)
+						$(".content .body").slideDown(1000);
+					} else {
+						$("body").attr("data", "")
+						$(".center a").animate({
+							left: '430px',
+							top: '50px'
+						}, 1000);
+						$(".search").css("top", "auto")
+						$(".search").animate({
+							right: '312px',
+							bottom: '50px'
+						}, 1000);
+						$(".content .header .center").animate({
+							height: "400px"
+						}, 1000)
+						$(".spacing").animate({
+							height: "318px"
+						}, 1000)
+						$(".content .body").slideUp(1000);
+					}
+				})
+				$(".home").click(function() {
+//					if($(".content .body").css("display") == "none") {
+						$("body").attr("data", "home")
+						$(".center a").animate({
+							left: '0',
+							top: '0'
+						}, 1000);
+						$(".search").animate({
+							right: '0',
+							top: '0'
+						}, 1000);
+						$(".content .header .center").animate({
+							height: "86px"
+						}, 1000)
+						$(".spacing").animate({
+							height: "0"
+						}, 1000)
+						$(".content .body").slideDown(1000);
+//					} else {
+//						$("body").attr("data", "")
+//						$(".center a").animate({
+//							left: '430px',
+//							top: '50px'
+//						}, 1000);
+//						$(".search").css("top", "auto")
+//						$(".search").animate({
+//							right: '312px',
+//							bottom: '50px'
+//						}, 1000);
+//						$(".content .header .center").animate({
+//							height: "400px"
+//						}, 1000)
+//						$(".spacing").animate({
+//							height: "318px"
+//						}, 1000)
+//						$(".content .body").slideUp(1000);
+//					}
+				})
+			} else {
+				clearTimeout(time)
+				var time = setTimeout(function() {
+					$(".center a").animate({
+						left: '0',
+						top: '0'
+					}, 1000);
+					$(".search").animate({
+						right: '0',
+						top: '0'
+					}, 1000);
+					$(".content .header .center").animate({
+						height: "120px"
+					}, 1000)
+					$(".spacing").animate({
+						height: "0"
+					}, 1000)
+					$(".content .body").slideDown(1000);
+				}, 4000)
+			}
+		})
+		//轮播图
+		var mySwiper = new Swiper('.swiper-container', {
+			slidesPerView: 'auto',
+			spaceBetween: 0,
+			autoplay: {
+				delay: 4000,
+				disableOnInteraction: false,
+			},
+			observer: true,
+			observeParents: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			}
+		})
+		//公告栏控制
+		$(".notice-nav li").mouseenter(function() {
+			$(this).siblings().removeClass("notice-active")
+			var i = $(this).index()
+			$(this).addClass("notice-active")
+			$(".page-wrapper .page").eq(i).siblings().removeClass("page-active")
+			$(".page-wrapper .page").eq(i).addClass("page-active")
+		})
+		$(".page .text a").mouseenter(function() {
+			$(this).siblings().removeClass("a-ative")
+			$(this).addClass("a-ative")
+			$(this).mouseleave(function() {
+				$(this).removeClass("a-ative")
+			})
+		})
+		$(".knowledge .text a").mouseenter(function() {
+			$(this).siblings().removeClass("a-ative")
+			$(this).addClass("a-ative")
+			$(this).mouseleave(function() {
+				$(this).removeClass("a-ative")
+			})
+		})
+	</script>
+
+</html>
